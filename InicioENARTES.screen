@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Browser" id="1" x="160" y="32" width="1025" height="1225" text="Browser&#xA;http://..." measuredWidth="1025" measuredHeight="1225">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="200" y="107" measuredWidth="116" measuredHeight="58">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Image%20Rounded"/>
+    <overrides>
+      <widgets ref="1" width="116" height="58"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="329" y="98" height="53" measuredWidth="807" measuredHeight="53">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Media%20Object"/>
+    <overrides>
+      <widgets ref="35" width="733" height="22"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Text" id="10" x="237" y="602" width="203" height="205" text="LA COMPAÑÍA&#xD;&#xA;&#xD;&#xA;Es la plataforma escénica e identificación artística de Francisco Córdova Azuela. La compañía, creada en 2007, construye y proyecta su identidad en la experiencia del lenguaje teatral y dancístico. En 2015 la compañía conmemora ocho años de labor escénica exponiendo su trabajo en diversos foros nacionales e internacionales. Reside en Barcelona, España." measuredWidth="203" measuredHeight="205">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="11" x="456" y="602" width="203" height="205" text="EL ESPECTÁCULO&#xD;&#xA;&#xD;&#xA;PostskriptumEs una tetralogía de piezas creadas y dirigidas por Francisco Córdova Azuela que muestran las experiencias de despedida. Una mirada, un abrazo, un gesto, un error. Pequeñas cosas que nos hacen, quizá, más humanos. Es, simplemente, decir adiós..." measuredWidth="203" measuredHeight="205">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="237" y="522" measuredWidth="315" measuredHeight="66">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Blockquote%20Cite"/>
+    <overrides>
+      <widgets ref="46" text=" PHYSICAL MOMENTUM PROJECT "/>
+      <widgets ref="47" text="--  Postskriptum y Magnificat&#x9;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="328" y="1196" measuredWidth="729" measuredHeight="104">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Page%20Header"/>
+    <overrides>
+      <widgets ref="81" width="729" text="Page Footer %(font:12)~Los datos personales recabados serán protegidos y serán incorporados y tratados en el SISTEMA...&#xD;&#xA;~%"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="16" x="775" y="535" measuredWidth="293" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Group%20Dropdown"/>
+    <overrides>
+      <widgets ref="15" text="Inicio {assets/gl-eye-open}, Catálogo, Agenda, {assets/gl-wrench}">
+        <items ref="@items.0" text="Inicio {assets/gl-eye-open}"/>
+        <items ref="@items.1" text="Catálogo"/>
+        <items ref="@items.2" text="Agenda"/>
+        <itemChanges xsi:type="o:Insert" newIndex="3">
+          <object xsi:type="model:Item" text="{assets/gl-wrench}"/>
+        </itemChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="720" y="602" width="391" measuredWidth="391" measuredHeight="215">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Table"/>
+    <overrides>
+      <widgets ref="51" width="391" height="215" text="#, Nombre, Detalle, Proyecto, Aprobado, Rechazado&#xA;1, Mark Otto, {link}, Mariachi, {assets/gl-unchecked}, {indeterminate}&#xA;2, Jacob, {link}, FILMINCASA, {assets/gl-unchecked}, {indeterminate}&#xA;3, Larry, {link}, LÍBER TERÁN , {assets/gl-unchecked}, {indeterminate}&#xA;4, Jonas, {link}, Troker, {assets/gl-unchecked}, {assets/gl-unchecked}&#xA;5, Pedro, {link}, Xolo, {indeterminate}, {assets/gl-unchecked}"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="20" x="720" y="848" width="391" measuredWidth="391" measuredHeight="321">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#List%20Group"/>
+    <overrides>
+      <widgets ref="197" width="391" height="320"/>
+      <widgets ref="195" x="41" y="4" width="309" height="317" text="Lugar de procedencia:&#xA;Tipo de transporte:&#xA;Fecha de salida:&#xA;Hora de salida:&#xA;Fecha de llegada:&#xA;Hora de llegada:&#xA;Hotel:&#xA;Check-In:&#xA;Check:Out:&#xA;">
+        <items ref="@items.0" text="Lugar de procedencia:"/>
+        <items ref="@items.1" text="Tipo de transporte:"/>
+        <items ref="@items.2" text="Fecha de salida:"/>
+        <items ref="@items.3" text="Hora de salida:"/>
+        <items ref="@items.4" text="Fecha de llegada:"/>
+        <items ref="@items.5" text="Hora de llegada:"/>
+        <items ref="@items.6" text="Hotel:"/>
+        <itemChanges xsi:type="o:Insert" newIndex="7">
+          <object xsi:type="model:Item" text="Check:Out:"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="7">
+          <object xsi:type="model:Item" text="Check-In:"/>
+        </itemChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="30" x="237" y="847" height="320" measuredWidth="422" measuredHeight="320">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail"/>
+    <overrides>
+      <widgets ref="8" width="422" height="320"/>
+      <widgets ref="7" width="410" height="308"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="31" x="200" y="192" measuredWidth="945" measuredHeight="252">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Navigation.screen#Carousel"/>
+    <overrides>
+      <widgets ref="59" width="945" height="252"/>
+      <widgets ref="61" height="252"/>
+      <widgets ref="62" y="110"/>
+      <widgets ref="63" x="845" height="252"/>
+      <widgets ref="64" height="252"/>
+      <widgets ref="65" y="110"/>
+      <widgets ref="66" y="133" width="945" text=" DESCARTES A KANT "/>
+      <widgets ref="67" y="174" width="945" text=" Il visore lunatique&#x9;"/>
+      <widgets ref="68" x="436" y="200"/>
+      <widgets ref="60" height="252"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="32" x="497" y="469" measuredWidth="350" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description%20Horizontal"/>
+    <overrides>
+      <widgets ref="62" text="Bienvenido"/>
+      <widgets ref="61" text="Encuentro de las Artes Escénicas 2016"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Browser" id="1" x="160" y="37" width="1025" height="1004" text="Browser&#xA;http://..." measuredWidth="1025" measuredHeight="1004">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="200" y="107" measuredWidth="116" measuredHeight="58">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Image%20Rounded"/>
+    <overrides>
+      <widgets ref="1" width="116" height="58"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="329" y="98" height="53" measuredWidth="807" measuredHeight="53">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Media%20Object"/>
+    <overrides>
+      <widgets ref="35" width="733" height="22"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="328" y="984" measuredWidth="729" measuredHeight="104">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Page%20Header"/>
+    <overrides>
+      <widgets ref="81" width="729" text="Page Footer %(font:12)~Los datos personales recabados serán protegidos y serán incorporados y tratados en el SISTEMA...&#xD;&#xA;~%"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="17" x="738" y="209" measuredWidth="293" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Group%20Dropdown"/>
+    <overrides>
+      <widgets ref="15" text="Inicio, Catálogo {assets/gl-eye-open}, Agenda, {assets/gl-wrench}">
+        <items ref="@items.0" text="Inicio"/>
+        <items ref="@items.1" text="Catálogo {assets/gl-eye-open}"/>
+        <items ref="@items.2" text="Agenda"/>
+        <itemChanges xsi:type="o:Insert" newIndex="3">
+          <object xsi:type="model:Item" text="{assets/gl-wrench}"/>
+        </itemChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="328" y="216" measuredWidth="416" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description%20Horizontal"/>
+    <overrides>
+      <widgets ref="62" text="Disciplinas"/>
+      <widgets ref="61" width="316" text="               Interdisciplina     Música     Teatro"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="19" x="296" y="296" measuredWidth="260" measuredHeight="225">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="260" height="225"/>
+      <widgets ref="12" width="248" height="211"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="22" x="576" y="295" width="480" measuredWidth="480" measuredHeight="225">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="480" height="225"/>
+      <widgets ref="12" width="468" height="211"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="24" x="296" y="540" width="179" height="189" measuredWidth="179" measuredHeight="189">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="179" height="189"/>
+      <widgets ref="12" x="8" y="7" width="163" height="175"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="26" x="489" y="540" measuredWidth="179" measuredHeight="189">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="179" height="189"/>
+      <widgets ref="12" x="8" y="7" width="163" height="175"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="27" x="685" y="540" measuredWidth="179" measuredHeight="189">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="179" height="189"/>
+      <widgets ref="12" x="8" y="7" width="163" height="175"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="28" x="876" y="540" measuredWidth="179" measuredHeight="189">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="179" height="189"/>
+      <widgets ref="12" x="8" y="7" width="163" height="175"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="29" x="296" y="752" measuredWidth="480" measuredHeight="225">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="480" height="225"/>
+      <widgets ref="12" width="468" height="211"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="30" x="791" y="752" measuredWidth="260" measuredHeight="225">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="260" height="225"/>
+      <widgets ref="12" width="248" height="211"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="10" y="10" text=" ANTARES DANZA CONTEMPORÁNEA " measuredWidth="213" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="36" x="315" y="456" measuredWidth="215" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Antarez danza contemporánea*&#xA;Pliegues"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="37" x="704" y="664" measuredWidth="74" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Lux boreal*&#xA; Fit/Misfit&#x9;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="38" x="315" y="664" measuredWidth="83" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Bruja danza*&#xA;Extraña"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="39" x="511" y="664" measuredWidth="74" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Ebert ortiz*&#xA;Cruel"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="40" x="896" y="664" measuredWidth="127" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Érika suárez*&#xA;EspeciesDeSpacios"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="41" x="600" y="456" measuredWidth="197" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Physical momentum project*&#xA; Postskriptum y Magnificat&#x9;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="42" x="315" y="912" measuredWidth="388" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Tumáka't danza contemporánea*&#xA;Rua do Lavradio o La distancia más larga entre dos puntos"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="43" x="814" y="912" measuredWidth="205" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Delfos danza contemporánea*&#xA;Consagración de la primavera&#x9;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="44" x="407" y="207" width="74" height="42" text="Danza," measuredWidth="74" measuredHeight="42" layoutParams="anchor-left|anchor-middle" selection="0" background="#000000" skin="assets/Bootstrap/_pills.svg">
+    <font size="14px"/>
+    <items x="0" y="0" width="73" height="42" text="Danza"/>
+    <items x="73" y="0" width="31" height="42"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

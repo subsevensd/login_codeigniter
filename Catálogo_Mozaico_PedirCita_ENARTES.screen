@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Browser" id="1" x="120" y="32" width="1057" height="1537" text="Browser&#xA;http://..." measuredWidth="1057" measuredHeight="1537">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="2" x="211" y="624" width="874" height="824" text="Perfiles de representantes {image}" measuredWidth="874" measuredHeight="824" selection="0">
+    <items x="10" y="0" width="174" height="28" text="Perfiles de representantes {image}"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="420" y="209" width="456" height="145" measuredWidth="456" measuredHeight="145">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description%20Horizontal"/>
+    <overrides>
+      <widgets ref="62" text="%(font:+45)Bienvenido%"/>
+      <widgets ref="61" x="165" y="131" width="356" height="137" text="Encuentro de las Artes Escénicas año 2016"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="268" y="732" measuredWidth="260" measuredHeight="225">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="260" height="225"/>
+      <widgets ref="12" width="248" height="211"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="19" x="548" y="731" measuredWidth="480" measuredHeight="225">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="480" height="225"/>
+      <widgets ref="12" width="468" height="211"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="20" x="268" y="976" measuredWidth="179" measuredHeight="189">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="179" height="189"/>
+      <widgets ref="12" x="8" y="7" width="163" height="175"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="21" x="461" y="976" measuredWidth="179" measuredHeight="189">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="179" height="189"/>
+      <widgets ref="12" x="8" y="7" width="163" height="175"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="22" x="657" y="976" measuredWidth="179" measuredHeight="189">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="179" height="189"/>
+      <widgets ref="12" x="8" y="7" width="163" height="175"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="23" x="848" y="976" measuredWidth="179" measuredHeight="189">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="179" height="189"/>
+      <widgets ref="12" x="8" y="7" width="163" height="175"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="24" x="268" y="1188" measuredWidth="480" measuredHeight="225">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="480" height="225"/>
+      <widgets ref="12" width="468" height="211"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="25" x="763" y="1188" measuredWidth="260" measuredHeight="225">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail%20Content"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgets ref="11" width="260" height="225"/>
+      <widgets ref="12" width="248" height="211"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="26" x="290" y="740" measuredWidth="215" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Antarez danza contemporánea*&#xA;Pliegues"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="27" x="709" y="984" measuredWidth="74" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Lux boreal*&#xA; Fit/Misfit&#x9;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="28" x="316" y="984" measuredWidth="83" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Bruja danza*&#xA;Extraña"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="29" x="513" y="984" measuredWidth="74" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Ebert ortiz*&#xA;Cruel"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="30" x="874" y="984" measuredWidth="127" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Érika suárez*&#xA;EspeciesDeSpacios"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="31" x="689" y="739" measuredWidth="197" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Physical momentum project*&#xA; Postskriptum y Magnificat&#x9;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="32" x="314" y="1196" measuredWidth="388" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Tumáka't danza contemporánea*&#xA;Rua do Lavradio o La distancia más larga entre dos puntos"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="33" x="790" y="1196" measuredWidth="205" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description"/>
+    <overrides>
+      <widgets ref="59" text="*Delfos danza contemporánea*&#xA;Consagración de la primavera&#x9;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="268" y="672" measuredWidth="481" measuredHeight="42">
+    <widgets xsi:type="model:Master" id="35" y="8" measuredWidth="481" measuredHeight="28">
+      <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Description%20Horizontal"/>
+      <overrides>
+        <widgets ref="62" text="Disciplinas"/>
+        <widgets ref="61" width="381" text="                       {favorites}*Interdisciplina*     ~Música~     ~Teatro~"/>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:ButtonBar" id="36" x="90" width="89" height="42" text="{favorites}Danza," measuredWidth="89" measuredHeight="42" layoutParams="anchor-left|anchor-middle" selection="0" background="#000000" skin="assets/Bootstrap/_pills.svg">
+      <font size="14px"/>
+      <items x="0" y="0" width="89" height="42" text="{favorites}Danza"/>
+      <items x="89" y="0" width="31" height="42"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="575" y="1105" measuredWidth="57" measuredHeight="53">
+    <widgets xsi:type="model:Icon" id="38" x="12" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+    <widgets xsi:type="model:Label" id="39" y="30" text="Pedir Cita" measuredWidth="57" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="40" x="966" y="892" measuredWidth="57" measuredHeight="53">
+    <widgets xsi:type="model:Icon" id="41" x="12" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+    <widgets xsi:type="model:Label" id="42" y="30" text="Pedir Cita" measuredWidth="57" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="43" x="462" y="893" measuredWidth="57" measuredHeight="53">
+    <widgets xsi:type="model:Icon" id="44" x="12" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+    <widgets xsi:type="model:Label" id="45" y="30" text="Pedir Cita" measuredWidth="57" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="46" x="960" y="1105" measuredWidth="57" measuredHeight="53">
+    <widgets xsi:type="model:Icon" id="47" x="12" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+    <widgets xsi:type="model:Label" id="48" y="30" text="Pedir Cita" measuredWidth="57" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="49" x="769" y="1105" measuredWidth="57" measuredHeight="53">
+    <widgets xsi:type="model:Icon" id="50" x="12" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+    <widgets xsi:type="model:Label" id="51" y="30" text="Pedir Cita" measuredWidth="57" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="52" x="960" y="1352" measuredWidth="57" measuredHeight="53">
+    <widgets xsi:type="model:Icon" id="53" x="12" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+    <widgets xsi:type="model:Label" id="54" y="30" text="Pedir Cita" measuredWidth="57" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="55" x="685" y="1352" measuredWidth="57" measuredHeight="53">
+    <widgets xsi:type="model:Icon" id="56" x="12" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+    <widgets xsi:type="model:Label" id="57" y="30" text="Pedir Cita" measuredWidth="57" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="58" x="382" y="1105" measuredWidth="57" measuredHeight="53">
+    <widgets xsi:type="model:Icon" id="59" x="12" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+    <widgets xsi:type="model:Label" id="60" y="30" text="Pedir Cita" measuredWidth="57" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="61" x="901" y="681" width="127" text="Search" measuredWidth="127" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="62" x="790" y="677" measuredWidth="32" measuredHeight="32" icon="list-bullet (large)"/>
+  <widgets xsi:type="model:Icon" id="63" x="845" y="677" measuredWidth="32" measuredHeight="32" icon="table (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="64" x="120" y="84" measuredWidth="1056" measuredHeight="121">
+    <widgets xsi:type="model:WidgetGroup" id="65" x="898" y="89" measuredWidth="151" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="66" width="17" height="23" measuredWidth="17" measuredHeight="23" icon="email (large)"/>
+      <widgets xsi:type="model:Icon" id="67" x="48" y="2" width="17" height="19" measuredWidth="17" measuredHeight="19" icon="twitter (large)"/>
+      <widgets xsi:type="model:Icon" id="68" x="23" y="2" width="19" height="19" measuredWidth="19" measuredHeight="19" icon="facebook (large)"/>
+      <widgets xsi:type="model:Label" id="69" x="72" text="{options}%(font:8)CERRAR SESIÓN%" measuredWidth="79" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Master" id="70" measuredWidth="1056" measuredHeight="121">
+      <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Modal%20Background"/>
+      <overrides>
+        <widgets ref="109" width="1056" height="121"/>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:Image" id="71" x="356" y="10" measuredWidth="343" measuredHeight="101" src="assets/firma-secretaria-343x100.png"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="72" x="120" y="1502" width="1056" height="121" text="&#xD;&#xA;&#xD;&#xA;Fondo Nacional para la Cultura y las Artes (FONCA)&#xD;&#xA;Argentina núm. 12, Col. Centro, Del. Cuauhtémoc, C.P. 06010, México, D.F., Teléfono: (55) 41550730&#xD;&#xA;CONACULTA-FONCA, MÉXICO - ALGUNOS DERECHOS RESERVADOS {copyright} 2016&#xD;&#xA;" measuredWidth="1056" measuredHeight="121" textAlignment="Center">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="74" x="406" y="868" width="484" height="336" measuredWidth="484" measuredHeight="336"/>
+  <widgets xsi:type="model:VButtonBar" id="75" x="406" y="868" width="115" height="336" text="*Día 1*&#xA;*Día 2*&#xA;~Día 3~" measuredWidth="115" measuredHeight="336" selection="0" textAlignment="Center">
+    <font/>
+    <items x="0" y="0" width="115" height="109" text="*Día 1*"/>
+    <items x="0" y="109" width="115" height="108" text="*Día 2*"/>
+    <items x="0" y="217" width="115" height="119" text="~Día 3~"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="76" x="847" y="874" width="37" height="44" measuredWidth="37" measuredHeight="44" icon="delete (custom)"/>
+  <widgets xsi:type="model:Combo" id="77" x="579" y="925" width="143" text="10:00 - 10:15 a.m." measuredWidth="143" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="78" x="579" y="966" width="251" height="143" text="%(font:+5)~Ingrese un mensaje aquí~%" measuredWidth="251" measuredHeight="143">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="79" x="579" y="890" width="146" text="*Seleccione un horario*" measuredWidth="146" measuredHeight="25">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="90" x="742" y="1129" measuredWidth="102" measuredHeight="38">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Label%20Success"/>
+    <overrides>
+      <widgets ref="69" width="102" height="38" text="Confirmar {assets/gl-ok-sign}"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="91" x="565" y="1129" measuredWidth="102" measuredHeight="38">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Label%20Danger"/>
+    <overrides>
+      <widgets ref="75" width="102" height="38" text="Cancelar {assets/gl-remove-sign}"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="94" x="353" y="440" measuredWidth="161" measuredHeight="153">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button"/>
+    <overrides>
+      <widgets ref="21" width="161" height="153" text="Perfil"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="95" x="796" y="440" measuredWidth="156" measuredHeight="153">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button"/>
+    <overrides>
+      <widgets ref="21" width="156" height="153" text="Catálogo"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="96" x="575" y="440" measuredWidth="153" measuredHeight="153">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button"/>
+    <overrides>
+      <widgets ref="21" width="153" height="153" text="Agenda"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="97" x="410" y="456" width="47" height="44" measuredWidth="47" measuredHeight="44" icon="user (large)"/>
+  <widgets xsi:type="model:Icon" id="98" x="854" y="456" width="41" height="44" measuredWidth="41" measuredHeight="44" icon="book (large)"/>
+  <widgets xsi:type="model:Icon" id="99" x="629" y="456" width="44" height="44" measuredWidth="44" measuredHeight="44" icon="calendar2 (large)"/>
+  <widgets xsi:type="model:Icon" id="100" x="591" y="564" width="19" height="20" measuredWidth="19" measuredHeight="20" icon="bell (large)"/>
+  <widgets xsi:type="model:Label" id="101" x="613" y="564" text="Tienes 1 solicitud " measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="106" x="785" y="432" measuredWidth="177" measuredHeight="169">
+    <widgets xsi:type="model:HLine" id="102" x="40" measuredWidth="100" measuredHeight="6"/>
+    <widgets xsi:type="model:HLine" id="103" x="40" y="163" measuredWidth="100" measuredHeight="6"/>
+    <widgets xsi:type="model:VLine" id="104" x="171" y="35" measuredWidth="6" measuredHeight="100"/>
+    <widgets xsi:type="model:VLine" id="105" y="35" measuredWidth="6" measuredHeight="100"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="107" x="406" y="849" width="484" text="%(bgcolor:white)Está solicitando una cita con *Bruja Danza*%" measuredWidth="484" measuredHeight="31" textAlignment="Center">
+    <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="108" x="521" y="1179" width="365" text="~*Se muestran solo días y horarios disponibles para pedir cita~" measuredWidth="365" measuredHeight="23" textAlignment="Center">
+    <font size="12px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

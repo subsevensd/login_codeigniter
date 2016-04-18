@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="4" x="160" y="37" width="1025" height="649" text="Browser&#xA;http://..." measuredWidth="1025" measuredHeight="649">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="200" y="107" measuredWidth="116" measuredHeight="58">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Image%20Rounded"/>
+    <overrides>
+      <widgets ref="1" width="116" height="58"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="329" y="98" height="53" measuredWidth="807" measuredHeight="53">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Media%20Object"/>
+    <overrides>
+      <widgets ref="35" width="733" height="22"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="328" y="624" measuredWidth="729" measuredHeight="104">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Page%20Header"/>
+    <overrides>
+      <widgets ref="81" width="729" text="Page Footer %(font:12)~Los datos personales recabados serán protegidos y serán incorporados y tratados en el SISTEMA...&#xD;&#xA;~%"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Text" id="30" x="197" y="316" width="203" height="205" text="LA COMPAÑÍA&#xD;&#xA;&#xD;&#xA;Es la plataforma escénica e identificación artística de Francisco Córdova Azuela. La compañía, creada en 2007, construye y proyecta su identidad en la experiencia del lenguaje teatral y dancístico. En 2015 la compañía conmemora ocho años de labor escénica exponiendo su trabajo en diversos foros nacionales e internacionales. Reside en Barcelona, España." measuredWidth="203" measuredHeight="205">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="31" x="424" y="316" width="203" height="205" text="EL ESPECTÁCULO&#xD;&#xA;&#xD;&#xA;PostskriptumEs una tetralogía de piezas creadas y dirigidas por Francisco Córdova Azuela que muestran las experiencias de despedida. Una mirada, un abrazo, un gesto, un error. Pequeñas cosas que nos hacen, quizá, más humanos. Es, simplemente, decir adiós..." measuredWidth="203" measuredHeight="205">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="32" x="170" y="223" measuredWidth="315" measuredHeight="66">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Blockquote%20Cite"/>
+    <overrides>
+      <widgets ref="46" text=" PHYSICAL MOMENTUM PROJECT "/>
+      <widgets ref="47" text="--  Postskriptum y Magnificat&#x9;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="33" x="197" y="592" text="." measuredWidth="23" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="34" x="201" y="591" measuredWidth="22" measuredHeight="24">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h5.%20Heading"/>
+    <overrides>
+      <widgets ref="14" text="{curved-arrow-left}"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="35" x="704" y="240" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="36" x="832" y="240" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="37" x="952" y="240" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="38" x="704" y="360" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="39" x="832" y="360" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="40" x="952" y="360" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="41" x="704" y="480" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="42" x="832" y="480" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="49" x="952" y="480" text="VIDEO" measuredWidth="100" measuredHeight="100"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
